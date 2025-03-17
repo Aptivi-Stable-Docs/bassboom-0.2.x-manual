@@ -5,12 +5,20 @@ icon: compact-disc
 
 # Installing BassBoom
 
-BassBoom can be installed on all the supported platforms. The installation steps are straightforward, but must be followed in order to ensure that the kernel starts right.
+BassBoom can be installed on all the supported platforms. The installation steps are straightforward, but must be followed in order to ensure that BassBoom starts right.
+
+{% hint style="danger" %}
+&#x20;We no longer support 32-bit platforms; hence we only support ARM64 and AMD64. Find out why [here](https://officialaptivi.wordpress.com/2024/08/03/final-word-regarding-32-bit-support/).
+{% endhint %}
 
 Depending on your platform, the amount of disk space taken by BassBoom and its runtime dependencies might vary. Select your platform below and follow the steps.
 
 {% content-ref url="windows.md" %}
 [windows.md](windows.md)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="linux.md" %}

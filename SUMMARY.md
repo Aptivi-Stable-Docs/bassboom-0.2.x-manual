@@ -13,10 +13,12 @@
 
 * [Installing BassBoom](installation/installing-bassboom/README.md)
   * [Windows](installation/installing-bassboom/windows.md)
+  * [macOS](installation/installing-bassboom/macos.md)
   * [Linux](installation/installing-bassboom/linux.md)
   * [Android](installation/installing-bassboom/android.md)
 * [Upgrading BassBoom](installation/upgrading-bassboom/README.md)
   * [Windows](installation/upgrading-bassboom/windows.md)
+  * [macOS](installation/upgrading-bassboom/macos.md)
   * [Linux](installation/upgrading-bassboom/linux.md)
   * [Android](installation/upgrading-bassboom/android.md)
 
