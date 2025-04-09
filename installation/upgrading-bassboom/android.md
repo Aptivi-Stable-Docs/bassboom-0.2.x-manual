@@ -7,11 +7,7 @@ icon: android
 
 The only way to upgrade BassBoom in Android is to unpack the updated files manually. This method also works for bleeding-edge builds, though you have to use unzip instead. This assumes that you've already set up PulseAudio and that it's working on your Android device.
 
-In case it's not running, execute the following command outside your proot environment:
-
-```shell-session
-$ pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" --exit-idle-time=-1
-```
+In case it's not running, follow the instructions about how to run PulseAudio [here](../installing-bassboom/android.md).
 
 To upgrade, follow these steps:
 
