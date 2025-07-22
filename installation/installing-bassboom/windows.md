@@ -43,23 +43,10 @@ If you like to manually unpack the BassBoom packages, follow these steps:
 4. Open your favorite terminal emulator, like ConEmu, and change the working directory to a folder containing the BassBoom executable
 5. Execute `bassboom` or `BassBoom.Cli.exe` to start the kernel
 
-## Bleeding-edge
-
-Bleeding-edge builds usually come from building the development branch of the application, and they usually contain bugs and other untested features.
-
-If you're a tester to such software, please follow the steps on your Windows machine. Please be sure that you're signed in to your GitHub account.
-
-1. Open the [canary release preparation workflow](https://github.com/Aptivi/BassBoom/actions/workflows/release-canary.yml)
-2. Select the most recent build
-3. Scroll down to Artifacts and click on one of the `bb-build` buttons to download the ZIP file or one of the `installer-ARCH-msi` files for the installer version, where `ARCH` is either `x64` or `arm64`.
-4. Extract the file. Be sure that you have the latest version of 7-Zip or your favorite archive manager installed. After that, follow the steps:
-   1. If you've used the `bb-build` output, follow the last two steps in the [Manual unpack](windows.md#method-3-manual-unpack) section.
-   2. If you've used the installer output, follow the last two steps in the [Windows Installer](windows.md#method-1-windows-installer) section.
-
 ## Notice for SmartScreen
 
 SmartScreen may detect that BassBoom and its associated executables may not pass the SmartScreen attestation. If this happens, you'll see the below page:
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-BassBoom will not put your PC at risk (except if you downloaded a copy from an unofficial software distributor, or from an unofficial source other than our official GitHub releases found [here](https://github.com/Aptivi/BassBoom/releases), our Chocolatey page found [here](https://community.chocolatey.org/packages/bassboom), and our NuGet page found [here](https://www.nuget.org/packages/BassBoom.Basolia/)). Click on `More Info`, then click on `Run anyways`.
+BassBoom will not put your PC at risk (except if you downloaded a copy from an unofficial software distributor, or from an unofficial source other than our official releases, our Chocolatey page found [here](https://community.chocolatey.org/packages/bassboom), and our NuGet page found [here](https://www.nuget.org/packages/BassBoom.Basolia/)). Click on `More Info`, then click on `Run anyways`.

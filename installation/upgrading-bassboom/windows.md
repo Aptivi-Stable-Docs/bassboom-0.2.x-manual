@@ -5,11 +5,7 @@ icon: windows
 
 # Windows
 
-Upgrading BassBoom on Windows is pretty simple, depending on the way you've installed it. To upgrade it, choose a method. Please note that the third method, which is unpacking the update yourself, can also be done with the bleeding-edge builds.
-
-{% hint style="info" %}
-If you're upgrading bleeding-edge builds, it's recommended that you uninstall the old copy and reinstall the newer version.
-{% endhint %}
+Upgrading BassBoom on Windows is pretty simple, depending on the way you've installed it. To upgrade it, choose a method.
 
 ## Method 1: Windows Installer
 

@@ -5,7 +5,7 @@ icon: android
 
 # Android
 
-The only way to upgrade BassBoom in Android is to unpack the updated files manually. This method also works for bleeding-edge builds, though you have to use unzip instead. This assumes that you've already set up PulseAudio and that it's working on your Android device.
+The only way to upgrade BassBoom in Android is to unpack the updated files manually. This assumes that you've already set up PulseAudio and that it's working on your Android device.
 
 In case it's not running, follow the instructions about how to run PulseAudio [here](../installing-bassboom/android.md).
 

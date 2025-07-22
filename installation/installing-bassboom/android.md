@@ -48,24 +48,6 @@ Once you're done, follow the steps:
 11. Execute `dotnet BassBoom.Cli.dll`
 12. Once you specify the music path, press Space and music should be playing from your phone or your tablet.
 
-## Bleeding-edge
-
-Bleeding-edge builds usually come from building the development branch of the kernel, and they usually contain bugs and other untested features.
-
-If you're a tester to such software, please follow the steps on your Windows machine. Please be sure that you're signed in to your GitHub account.
-
-1. Open the [canary release preparation workflow](https://github.com/Aptivi/BassBoom/actions/workflows/release-canary.yml)
-2. Select the most recent build
-3. Scroll down to Artifacts and click on the `nks-build` button to download the ZIP file.
-4. Repeat steps 1-7 in the `Installation` section
-5. Now, use the `termux-setup-storage` command. Follow the instructions [here](https://wiki.termux.com/wiki/Termux-setup-storage).
-6. Copy the `nks-build.zip` file from `~/storage/downloads/nks-build.zip` to your home directory
-   * `cp ~/storage/downloads/nks-build.zip ~/`
-7. Still in the home directory, install unzip to extract the files
-   * `apt install unzip`
-   * `unzip nks-build.zip`
-8. Execute `dotnet Nitrocid.dll`
-
 ## Important notes
 
 Here are important notes to consider when trying to run Nitrocid KS on Android:
