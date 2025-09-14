@@ -7,6 +7,10 @@ icon: hand-wave
 
 <figure><img src=".gitbook/assets/BB.Cli.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+This branch is no longer maintained, but we're working on BassBoom 1.0 and MediaBoom 1.0, which will be released later.
+{% endhint %}
+
 {% hint style="info" %}
 32-bit platforms are no longer supported as of BassBoom v0.1.6. If you still want to target 32-bit platforms, you can use v0.1.5 or lower, but you'll miss out all the new groovy features and improvements.
 {% endhint %}

@@ -41,6 +41,6 @@
 
 ***
 
-* [Report an issue](https://gitlab.com/aptivi/main/BassBoom/-/issues)
-* [Source code](https://gitlab.com/aptivi/main/BassBoom)
+* [Report an issue](https://github.com/Aptivi/BassBoom/issues/new)
+* [Source code](https://github.com/Aptivi/BassBoom)
 * [API Reference](https://aptivi.github.io/BassBoom)
